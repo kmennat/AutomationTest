@@ -19,14 +19,13 @@ public class TestBase
         System.setProperty("webdriver.firefox.driver",System.getProperty("user.dir")+"/drivers/geckodriver.exe");
         driver =  new FirefoxDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
         driver.navigate().to("https://kombau-au.dbnetze.com/login");
 
     }
     @AfterSuite
 
-    public void stopDriver()
-    {
+    public void stopDriver() {
         driver.quit();
 
     }

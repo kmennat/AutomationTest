@@ -3,8 +3,8 @@
 <suite name="MySuite">
     <test  name="MyFirst">
         <classes>
-            <class name="tests.UserLoginTest"/>
-            <!--<class name="tests.FilterTest"/>-->
+            <!--<class name="tests.UserLoginTest"/>-->
+            <class name="tests.FilterTest"/>
         </classes>
     </test>
 </suite>
