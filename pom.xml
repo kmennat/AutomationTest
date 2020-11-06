@@ -65,6 +65,19 @@
                     <testNGSuite>testng.xml</testNGSuite>
             </properties>
         </profile>
+        <profile>
+            <id>mytest2</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>environement</name>
+                    <value>regtest</value>
+                </property>
+            </activation>
+            <properties>
+                <testNGSuite>testngnew.xml</testNGSuite>
+            </properties>
+        </profile>
     </profiles>
 
 
