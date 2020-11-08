@@ -1,6 +1,7 @@
 package tests;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.UserLogin;
@@ -20,5 +21,9 @@ public class UserLoginTest extends TestBase{
         homeObj.clickLogo();
         loginObj = new UserLogin(driver);
         loginObj.Login("user","test");
+        String AktuellTitle= driver.getTitle();
+        //System.out.println("der Title ist  ------->>>>>>>>>>" +aktuellTitle);
+        String ExceptedTitle = "Kommunikationsplattform Bau";
+        Assert.assertEquals(AktuellTitle,ExceptedTitle);
     }
 }

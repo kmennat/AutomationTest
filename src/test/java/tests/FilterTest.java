@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.FilterAnw;
 import pages.HomePage;
@@ -20,7 +21,12 @@ public class FilterTest extends TestBase{
             Thread.sleep(6000);
             FilterObj =  new FilterAnw(driver);
             Thread.sleep(6000);
+            String AktuellTitle= driver.getTitle();
+            System.out.println("der Title ist  ------->>>>>>>>>>" +AktuellTitle);
+            String ExceptedTitle = "Kommunikationsplattform Bau";
+            Assert.assertEquals(AktuellTitle,ExceptedTitle);
             FilterObj.useFilter("80");
+
 
         }
 
