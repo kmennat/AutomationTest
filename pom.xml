@@ -62,7 +62,7 @@
                 </property>
             </activation>
             <properties>
-                    <testNGSuite>testng.xml</testNGSuite>
+                    <testNGSuite>UseFilterTestNG.xml</testNGSuite>
             </properties>
         </profile>
         <profile>
@@ -75,7 +75,7 @@
                 </property>
             </activation>
             <properties>
-                <testNGSuite>testngnew.xml</testNGSuite>
+                <testNGSuite>UserLoginTestNG.xml</testNGSuite>
             </properties>
         </profile>
     </profiles>
