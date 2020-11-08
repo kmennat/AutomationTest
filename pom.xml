@@ -28,7 +28,6 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>${testNGSuite}</suiteXmlFile>
                         </suiteXmlFiles>
-                        <BrowserType>${browser.type}</BrowserType>
                     </configuration>
                 </plugin>
             </plugins>

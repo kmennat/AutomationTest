@@ -17,17 +17,8 @@ public class TestBase
 
     @BeforeSuite
     public void startDriver(){
-
-        String browserName = System.getProperty("BrowserType",System.setProperty("BrowserName","browserName"));
-
-        if(browserName.equalsIgnoreCase("firefox")){
-            System.setProperty("webdriver.firefox.driver",System.getProperty("user.dir")+"/drivers/geckodriver.exe");
-            driver =  new FirefoxDriver();
-        }else{
-            System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/drivers/chromedriver.exe");
-            driver =  new ChromeDriver();
-        }
-
+        System.setProperty("webdriver.firefox.driver",System.getProperty("user.dir")+"/drivers/geckodriver.exe");
+        driver =  new FirefoxDriver();
         driver.manage().window().maximize();
         //driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
         driver.navigate().to("https://kombau-au.dbnetze.com/login");
