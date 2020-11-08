@@ -28,6 +28,7 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>${testNGSuite}</suiteXmlFile>
                         </suiteXmlFiles>
+                        <BrowserType>${browser.type}</BrowserType>
                     </configuration>
                 </plugin>
             </plugins>
@@ -53,7 +54,7 @@
 
     <profiles>
         <profile>
-            <id>mytest1</id>
+            <id>UseFilterTest</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
                 <property>
@@ -66,7 +67,7 @@
             </properties>
         </profile>
         <profile>
-            <id>mytest2</id>
+            <id>UserLoginTest</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
                 <property>
