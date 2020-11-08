@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="44.641" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="39.546" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="DE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire590972228753860852\surefirebooter6231542403721965591.jar C:\Users\khattabmennat\AppData\Local\Temp\surefire590972228753860852 2020-11-08T19-08-59_019-jvmRun1 surefire1507052761407685319tmp surefire_05480066458712362797tmp"/>
+    <property name="sun.java.command" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire2314829169699536276\surefirebooter7781991370841172419.jar C:\Users\khattabmennat\AppData\Local\Temp\surefire2314829169699536276 2020-11-08T19-35-44_254-jvmRun1 surefire1727792425572507255tmp surefire_06825721013482814254tmp"/>
     <property name="surefire.test.class.path" value="D:\AutomationTest\target\test-classes;D:\AutomationTest\target\classes;C:\Users\khattabmennat\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\khattabmennat\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\khattabmennat\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\khattabmennat\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\khattabmennat\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\khattabmennat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\khattabmennat\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\khattabmennat\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\khattabmennat\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\khattabmennat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\khattabmennat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\khattabmennat\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\khattabmennat\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\khattabmennat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\khattabmennat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\khattabmennat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\khattabmennat"/>
@@ -29,10 +29,11 @@
     <property name="file.separator" value="\"/>
     <property name="webdriver.firefox.driver" value="D:\AutomationTest/drivers/geckodriver.exe"/>
     <property name="line.separator" value="&#10;"/>
+    <property name="properity" value=""/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire590972228753860852\surefirebooter6231542403721965591.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire2314829169699536276\surefirebooter7781991370841172419.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,14 +62,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="UserCanLogin" classname="tests.UserLoginTest" time="2.41">
-    <system-err><![CDATA[1604858945473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KHATTA~2\\AppData\\Local\\Temp\\rust_mozprofile79vfNV"
+  <testcase name="UserCanLogin" classname="tests.UserLoginTest" time="1.006">
+    <system-out><![CDATA[null
+]]></system-out>
+    <system-err><![CDATA[1604860552073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KHATTA~2\\AppData\\Local\\Temp\\rust_mozprofile5mJmJ6"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1604858964798	Marionette	INFO	Listening on port 53355
-1604858968818	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 08, 2020 7:09:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1604860573519	Marionette	INFO	Listening on port 55354
+1604860577125	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 08, 2020 7:36:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMATION: Detected dialect: W3C
 ]]></system-err>
   </testcase>

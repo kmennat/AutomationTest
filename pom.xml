@@ -25,6 +25,13 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M5</version>
                     <configuration>
+                        <systemPropertyVariables>
+                            <!--<properity>
+                                <name>browser</name>
+                                <MyBrowser>${browser}</MyBrowser>
+                            </properity>-->
+                            <browser.type>${browser.type}</browser.type>
+                        </systemPropertyVariables>
                         <suiteXmlFiles>
                             <suiteXmlFile>${testNGSuite}</suiteXmlFile>
                         </suiteXmlFiles>
@@ -76,6 +83,24 @@
             </activation>
             <properties>
                 <testNGSuite>UserLoginTestNG.xml</testNGSuite>
+            </properties>
+        </profile>
+        <profile>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <id>firefox</id>
+            <properties>
+                <browser.type>firefox</browser.type>
+            </properties>
+        </profile>
+        <profile>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <id>chrome</id>
+            <properties>
+                <browser.type>chrome</browser.type>
             </properties>
         </profile>
     </profiles>
