@@ -24,9 +24,11 @@ public class TestBase
             System.setProperty("webdriver.firefox.driver",System.getProperty("user.dir")+"/drivers/geckodriver.exe");
             driver =  new FirefoxDriver();
         }
-        else
+        else if (browserType.equalsIgnoreCase("chrome"))
+        {
             System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/drivers/chromedriver.exe");
             driver =  new ChromeDriver();
+        }
 
         driver.manage().window().maximize();
         //driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
