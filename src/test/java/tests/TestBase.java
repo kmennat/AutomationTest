@@ -18,6 +18,7 @@ public class TestBase
     @BeforeSuite
     public void startDriver(){
         String browserType = System.getProperty("browser.type");
+        System.out.println("anbei der ausgewählte browser:" +browserType);
         if (browserType.equalsIgnoreCase("firefox"))
         {
             System.setProperty("webdriver.firefox.driver",System.getProperty("user.dir")+"/drivers/geckodriver.exe");

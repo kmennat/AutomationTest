@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="39.546" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="50.537" tests="3" errors="0" skipped="2" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="browser.type" value="firefox"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="D:\AutomationTest\target\test-classes;D:\AutomationTest\target\classes;C:\Users\khattabmennat\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\khattabmennat\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\khattabmennat\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\khattabmennat\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\khattabmennat\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\khattabmennat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\khattabmennat\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\khattabmennat\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\khattabmennat\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\khattabmennat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\khattabmennat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\khattabmennat\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\khattabmennat\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\khattabmennat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\khattabmennat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\khattabmennat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
@@ -18,7 +19,7 @@
     <property name="user.country" value="DE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire2314829169699536276\surefirebooter7781991370841172419.jar C:\Users\khattabmennat\AppData\Local\Temp\surefire2314829169699536276 2020-11-08T19-35-44_254-jvmRun1 surefire1727792425572507255tmp surefire_06825721013482814254tmp"/>
+    <property name="sun.java.command" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire959169935995015483\surefirebooter3136354930445045445.jar C:\Users\khattabmennat\AppData\Local\Temp\surefire959169935995015483 2020-11-08T19-56-01_864-jvmRun1 surefire3526980090063794618tmp surefire_05867226878196177079tmp"/>
     <property name="surefire.test.class.path" value="D:\AutomationTest\target\test-classes;D:\AutomationTest\target\classes;C:\Users\khattabmennat\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\khattabmennat\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\khattabmennat\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\khattabmennat\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\khattabmennat\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\khattabmennat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\khattabmennat\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\khattabmennat\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\khattabmennat\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\khattabmennat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\khattabmennat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\khattabmennat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\khattabmennat\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\khattabmennat\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\khattabmennat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\khattabmennat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\khattabmennat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\khattabmennat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\khattabmennat"/>
@@ -29,11 +30,10 @@
     <property name="file.separator" value="\"/>
     <property name="webdriver.firefox.driver" value="D:\AutomationTest/drivers/geckodriver.exe"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="properity" value=""/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire2314829169699536276\surefirebooter7781991370841172419.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\khattabmennat\AppData\Local\Temp\surefire959169935995015483\surefirebooter3136354930445045445.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,17 +62,58 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="UserCanLogin" classname="tests.UserLoginTest" time="1.006">
-    <system-out><![CDATA[null
-]]></system-out>
-    <system-err><![CDATA[1604860552073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KHATTA~2\\AppData\\Local\\Temp\\rust_mozprofile5mJmJ6"
+  <testcase name="startDriver" classname="tests.UserLoginTest" time="49.676">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MDXN00005351&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x002D9563+2725219]&#10;	Ordinal0 [0x001D8551+1672529]&#10;	Ordinal0 [0x000C0359+525145]&#10;	Ordinal0 [0x00050B77+68471]&#10;	Ordinal0 [0x0004D32C+54060]&#10;	Ordinal0 [0x0006CC37+183351]&#10;	Ordinal0 [0x0006CA3D+182845]&#10;	Ordinal0 [0x0006A94B+174411]&#10;	Ordinal0 [0x00052528+75048]&#10;	Ordinal0 [0x000535A0+79264]&#10;	Ordinal0 [0x00053539+79161]&#10;	Ordinal0 [0x001ED607+1758727]&#10;	GetHandleVerifier [0x003F6546+1050150]&#10;	GetHandleVerifier [0x003F6291+1049457]&#10;	GetHandleVerifier [0x004010D7+1094071]&#10;	GetHandleVerifier [0x003F6B46+1051686]&#10;	Ordinal0 [0x001E5B06+1727238]&#10;	Ordinal0 [0x001EEB7B+1764219]&#10;	Ordinal0 [0x001EECE3+1764579]&#10;	Ordinal0 [0x00204C05+1854469]&#10;	BaseThreadInitThunk [0x75B86359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77E87C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77E87BF4+180]&#10;	(No symbol) [0x00000000]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDXN00005351', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x002D9563+2725219]
+	Ordinal0 [0x001D8551+1672529]
+	Ordinal0 [0x000C0359+525145]
+	Ordinal0 [0x00050B77+68471]
+	Ordinal0 [0x0004D32C+54060]
+	Ordinal0 [0x0006CC37+183351]
+	Ordinal0 [0x0006CA3D+182845]
+	Ordinal0 [0x0006A94B+174411]
+	Ordinal0 [0x00052528+75048]
+	Ordinal0 [0x000535A0+79264]
+	Ordinal0 [0x00053539+79161]
+	Ordinal0 [0x001ED607+1758727]
+	GetHandleVerifier [0x003F6546+1050150]
+	GetHandleVerifier [0x003F6291+1049457]
+	GetHandleVerifier [0x004010D7+1094071]
+	GetHandleVerifier [0x003F6B46+1051686]
+	Ordinal0 [0x001E5B06+1727238]
+	Ordinal0 [0x001EEB7B+1764219]
+	Ordinal0 [0x001EECE3+1764579]
+	Ordinal0 [0x00204C05+1854469]
+	BaseThreadInitThunk [0x75B86359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E87C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E87BF4+180]
+	(No symbol) [0x00000000]
+
+]]></failure>
+    <system-err><![CDATA[1604861767135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KHATTA~2\\AppData\\Local\\Temp\\rust_mozprofilemcNN6w"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1604860573519	Marionette	INFO	Listening on port 55354
-1604860577125	Marionette	WARN	TLS certificate errors will be ignored for this session
-Nov 08, 2020 7:36:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[Parent 18208, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1604861784440	Marionette	INFO	Listening on port 56833
+1604861787774	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 08, 2020 7:56:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMATION: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 44824
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
 ]]></system-err>
+  </testcase>
+  <testcase name="UserCanLogin" classname="tests.UserLoginTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MDXN00005351&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x002D9563+2725219]&#10;	Ordinal0 [0x001D8551+1672529]&#10;	Ordinal0 [0x000C0359+525145]&#10;	Ordinal0 [0x00050B77+68471]&#10;	Ordinal0 [0x0004D32C+54060]&#10;	Ordinal0 [0x0006CC37+183351]&#10;	Ordinal0 [0x0006CA3D+182845]&#10;	Ordinal0 [0x0006A94B+174411]&#10;	Ordinal0 [0x00052528+75048]&#10;	Ordinal0 [0x000535A0+79264]&#10;	Ordinal0 [0x00053539+79161]&#10;	Ordinal0 [0x001ED607+1758727]&#10;	GetHandleVerifier [0x003F6546+1050150]&#10;	GetHandleVerifier [0x003F6291+1049457]&#10;	GetHandleVerifier [0x004010D7+1094071]&#10;	GetHandleVerifier [0x003F6B46+1051686]&#10;	Ordinal0 [0x001E5B06+1727238]&#10;	Ordinal0 [0x001EEB7B+1764219]&#10;	Ordinal0 [0x001EECE3+1764579]&#10;	Ordinal0 [0x00204C05+1854469]&#10;	BaseThreadInitThunk [0x75B86359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77E87C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77E87BF4+180]&#10;	(No symbol) [0x00000000]&#10;"/>
+  </testcase>
+  <testcase name="stopDriver" classname="tests.UserLoginTest" time="0">
+    <skipped/>
   </testcase>
 </testsuite>
