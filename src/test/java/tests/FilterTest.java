@@ -17,7 +17,7 @@ public class FilterTest extends TestBase{
         public void Filteranwenden() throws InterruptedException {
 
             loginObj = new UserLogin(driver);
-            loginObj.Login("user","test");
+            loginObj.Login("user","test","");
             Thread.sleep(6000);
             FilterObj =  new FilterAnw(driver);
             Thread.sleep(6000);

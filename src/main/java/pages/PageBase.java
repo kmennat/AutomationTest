@@ -20,4 +20,9 @@ public class PageBase {
     {
         textElements.sendKeys(value);
     }
+    protected static void checkElement(WebElement contentElement, String content)
+    {
+        contentElement.getText().contains(content);
+    }
+
 }
